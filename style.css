@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEE;
+}
+
+.top{
+    height: 30vh;
+    width: 100%;
+}
+
+.middle{
+    height: 40vh;
+    width: 100%;
+}
+
+.bottom{
+    height: 30vh;
+    width: 100%;
+}
