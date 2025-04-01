@@ -10,6 +10,8 @@ body{
     flex-direction: column;
     gap: 1em;
     padding: 1em;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .top{
@@ -17,6 +19,13 @@ body{
     width: 100%;
 
     display: flex;
+
+    .cuadradinho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
     
     .galeria_container{
         background-color:cornsilk;
@@ -51,6 +60,10 @@ body{
     width: 100%;
 
     display: flex;
+
+    .cuadradinho img{
+        height: 100%;
+    }
     
     .galeria_container{
         background-color:#BBB;
